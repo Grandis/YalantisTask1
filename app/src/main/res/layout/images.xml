@@ -3,5 +3,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingRight="@dimen/image_padding"
+        android:paddingBottom="16dp"
         android:id="@+id/myImage"
         android:onClick="toastShow"/>

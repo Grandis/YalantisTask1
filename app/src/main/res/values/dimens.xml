@@ -10,7 +10,7 @@
     <dimen name="status_padding_left_right">10dp</dimen>
     <dimen name="status_margin">2dp</dimen>
     <dimen name="borderline_height">1dp</dimen>
-    <dimen name="borderline_margin">8dp</dimen>
+    <dimen name="borderline_margin">4dp</dimen>
     <dimen name="main_text_margin">8dp</dimen>
     <dimen name="image_padding">8dp</dimen>
 </resources>
