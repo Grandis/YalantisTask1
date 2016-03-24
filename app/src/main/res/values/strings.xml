@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name" translatable="false">Yalantis</string>
+    <string name="title" translatable="false">CE-1257218</string>
+    <string name="headline">Комунальне господарство</string>
+    <string name="status">В роботі</string>
+    <string name="createText">Створено</string>
+    <string name="createDate">25 лютого 2016</string>
+    <string name="registrationText">Зареєстровано</string>
+    <string name="registrationDate">26 лютого 2016</string>
+    <string name="deadlineText">Вирішити до</string>
+    <string name="deadlineDate">29 лютого 2016</string>
+    <string name="responsibleText">Відповідальний</string>
+    <string name="responsibleOrganization">Дніпропетровський МВК</string>
+    <string name="mainText">Відкритий люк (біля рекламного щита), район повороту 18 та 19 трамваїв
+        на проспект Миру з Донецького шосе.
+    </string>
+
+</resources>

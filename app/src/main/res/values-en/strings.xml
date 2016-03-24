@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="headline">Municipal services</string>
+    <string name="status">In work</string>
+    <string name="createText">Created</string>
+    <string name="createDate">02.25.2016</string>
+    <string name="registrationText">Registered</string>
+    <string name="registrationDate">02.26.2016</string>
+    <string name="deadlineText">Resolve to</string>
+    <string name="deadlineDate">02.29.2016</string>
+    <string name="responsibleText">Responsible</string>
+    <string name="responsibleOrganization">Dnipropetrovsk MVC</string>
+    <string name="mainText">Opened hatch (near the billboard), the area of 18 and 19 trams turn
+        at Prospect Mira from Donetsk highway.
+    </string>
+</resources>
