@@ -50,6 +50,8 @@
         <item name="android:onClick">toastShow</item>
     </style>
 
+    <!-- [Comment] Don't use relativity attributes in styles -->
+
     <style name="mainText">
         <item name="android:textColor">@color/colorMainText</item>
         <item name="android:textSize">@dimen/primary_text_size</item>

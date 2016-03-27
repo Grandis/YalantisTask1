@@ -7,7 +7,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
-
+//[Comment] Wrong top padding
 public class MainActivity extends AppCompatActivity {
     private RecyclerView mRecyclerView;
     private RVAdapter mRVAdapter;
@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
             "http://cs631918.vk.me/v631918154/209f5/BYy_UV61w1Y.jpg",
             "http://cs631918.vk.me/v631918154/209fd/W4aSGtYMzY0.jpg",
             "http://cs631918.vk.me/v631918154/20a05/IPWdyY46MMg.jpg"
-    };
+    }; //[Comment] It should be constant
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

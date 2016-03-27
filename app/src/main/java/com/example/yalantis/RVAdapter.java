@@ -13,7 +13,7 @@ public class RVAdapter extends RecyclerView.Adapter<RVAdapter.MyViewHolder> {
 
     private String[] mImagesUrl;
     private Context mContext;
-    private ImageView mImage;
+    private ImageView mImage; //[Comment] It should be viewholder local variable
 
     public class MyViewHolder extends RecyclerView.ViewHolder {
 
