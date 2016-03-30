@@ -13,9 +13,9 @@ public class RVAdapter extends RecyclerView.Adapter<RVAdapter.MyViewHolder> {
 
     private String[] mImagesUrl;
     private Context mContext;
-    private ImageView mImage;
 
     public class MyViewHolder extends RecyclerView.ViewHolder {
+        private ImageView mImage;
 
         public MyViewHolder (View view) {
             super(view);
@@ -38,7 +38,7 @@ public class RVAdapter extends RecyclerView.Adapter<RVAdapter.MyViewHolder> {
 
     @Override
     public void onBindViewHolder (MyViewHolder holder, int position) {
-        Picasso.with(mContext).load(mImagesUrl[position]).into(mImage);
+        Picasso.with(mContext).load(mImagesUrl[position]).into(holder.mImage);
     }
 
     @Override

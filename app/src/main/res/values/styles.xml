@@ -13,7 +13,6 @@
         <item name="android:textSize">@dimen/headline_text_size</item>
         <item name="android:paddingTop">@dimen/headline_padding</item>
         <item name="android:textColor">@color/colorMainText</item>
-        <item name="android:onClick">toastShow</item>
     </style>
 
     <style name="status">
@@ -26,19 +25,16 @@
         <item name="android:textSize">@dimen/status_text_size</item>
         <item name="android:layout_marginRight">@dimen/status_margin</item>
         <item name="android:background">@drawable/rounded_corners</item>
-        <item name="android:onClick">toastShow</item>
     </style>
 
     <style name="listText">
         <item name="android:textSize">@dimen/primary_text_size</item>
-        <item name="android:onClick">toastShow</item>
     </style>
 
     <style name="listDate">
         <item name="android:textColor">@color/colorMainText</item>
         <item name="android:textSize">@dimen/primary_text_size</item>
         <item name="android:layout_alignParentRight">true</item>
-        <item name="android:onClick">toastShow</item>
     </style>
 
     <style name="borderline">
@@ -47,7 +43,6 @@
         <item name="android:background">@color/colorBorderline</item>
         <item name="android:layout_marginTop">@dimen/borderline_margin</item>
         <item name="android:layout_marginBottom">@dimen/borderline_margin</item>
-        <item name="android:onClick">toastShow</item>
     </style>
 
     <style name="mainText">
@@ -55,7 +50,6 @@
         <item name="android:textSize">@dimen/primary_text_size</item>
         <item name="android:layout_marginTop">@dimen/main_text_margin</item>
         <item name="android:layout_marginBottom">@dimen/main_text_margin</item>
-        <item name="android:onClick">toastShow</item>
     </style>
 
 </resources>

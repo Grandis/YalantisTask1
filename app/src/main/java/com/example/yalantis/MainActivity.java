@@ -1,7 +1,7 @@
 package com.example.yalantis;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.MenuItem;
@@ -11,7 +11,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
     private RecyclerView mRecyclerView;
     private RVAdapter mRVAdapter;
-    private String[] mImagesUrl = new String[]{
+    public static final String[] IMAGES_URL = new String[]{
             "http://cs631918.vk.me/v631918154/209f5/BYy_UV61w1Y.jpg",
             "http://cs631918.vk.me/v631918154/209fd/W4aSGtYMzY0.jpg",
             "http://cs631918.vk.me/v631918154/20a05/IPWdyY46MMg.jpg"
@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         mRecyclerView = (RecyclerView)findViewById(R.id.recyclerView);
-        mRVAdapter = new RVAdapter(this, mImagesUrl);
+        mRVAdapter = new RVAdapter(this, IMAGES_URL);
         LinearLayoutManager linearLayoutManager =
                 new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false);
         mRecyclerView.setLayoutManager(linearLayoutManager);

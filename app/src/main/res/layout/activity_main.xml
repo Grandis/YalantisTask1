@@ -36,20 +36,23 @@
                     android:layout_height="wrap_content"
                     android:text="@string/headline"
                     android:id="@+id/textView"
-                    style="@style/headline" />
+                    style="@style/headline"
+                    android:onClick="toastShow" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/status"
                     android:id="@+id/textView2"
-                    style="@style/status" />
+                    style="@style/status"
+                    android:onClick="toastShow" />
 
             </RelativeLayout>
 
             <TextView
                 android:id="@+id/textView11"
-                style="@style/borderline" />
+                style="@style/borderline"
+                android:onClick="toastShow" />
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -62,19 +65,22 @@
                     android:layout_height="wrap_content"
                     android:text="@string/createText"
                     android:id="@+id/textView3"
-                    style="@style/listText" />
+                    style="@style/listText"
+                    android:onClick="toastShow" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/createDate"
                     android:id="@+id/textView4"
-                    style="@style/listDate" />
+                    style="@style/listDate"
+                    android:onClick="toastShow" />
             </RelativeLayout>
 
             <TextView
                 style="@style/borderline"
-                android:id="@+id/textView12" />
+                android:id="@+id/textView12"
+                android:onClick="toastShow" />
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -87,19 +93,22 @@
                     android:layout_height="wrap_content"
                     android:text="@string/registrationText"
                     android:id="@+id/textView5"
-                    style="@style/listText" />
+                    style="@style/listText"
+                    android:onClick="toastShow" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/registrationDate"
                     android:id="@+id/textView6"
-                    style="@style/listDate" />
+                    style="@style/listDate"
+                    android:onClick="toastShow" />
             </RelativeLayout>
 
             <TextView
                 style="@style/borderline"
-                android:id="@+id/textView13" />
+                android:id="@+id/textView13"
+                android:onClick="toastShow" />
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -112,19 +121,22 @@
                     android:layout_height="wrap_content"
                     android:text="@string/deadlineText"
                     android:id="@+id/textView7"
-                    style="@style/listText" />
+                    style="@style/listText"
+                    android:onClick="toastShow" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/deadlineDate"
                     android:id="@+id/textView8"
-                    style="@style/listDate" />
+                    style="@style/listDate"
+                    android:onClick="toastShow" />
             </RelativeLayout>
 
             <TextView
                 style="@style/borderline"
-                android:id="@+id/textView14" />
+                android:id="@+id/textView14"
+                android:onClick="toastShow" />
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -137,26 +149,30 @@
                     android:layout_height="wrap_content"
                     android:text="@string/responsibleText"
                     android:id="@+id/textView9"
-                    style="@style/listText" />
+                    style="@style/listText"
+                    android:onClick="toastShow" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/responsibleOrganization"
                     android:id="@+id/textView10"
-                    style="@style/listDate" />
+                    style="@style/listDate"
+                    android:onClick="toastShow" />
             </RelativeLayout>
 
             <TextView
                 style="@style/borderline"
-                android:id="@+id/textView15" />
+                android:id="@+id/textView15"
+                android:onClick="toastShow" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/mainText"
                 android:id="@+id/textView16"
-                style="@style/mainText" />
+                style="@style/mainText"
+                android:onClick="toastShow" />
 
             <android.support.v7.widget.RecyclerView
                 android:layout_width="wrap_content"
