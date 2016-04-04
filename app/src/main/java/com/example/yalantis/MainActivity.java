@@ -22,8 +22,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        getSupportActionBar().setTitle(R.string.title); //[Comment] NPE possible. Add if(getSupportActionBar != null)
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().setTitle(R.string.title);
+            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        }
 
         mRecyclerView = (RecyclerView)findViewById(R.id.recyclerView);
         mRVAdapter = new RVAdapter(this, IMAGES_URL);
