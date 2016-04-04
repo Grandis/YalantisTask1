@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        getSupportActionBar().setTitle(R.string.title);
+        getSupportActionBar().setTitle(R.string.title); //[Comment] NPE possible. Add if(getSupportActionBar != null)
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         mRecyclerView = (RecyclerView)findViewById(R.id.recyclerView);
